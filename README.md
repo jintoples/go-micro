@@ -16,6 +16,7 @@ Docker
 ```bash
   cd /direktori service
   docker build -f nama-service.dockerfile -t jintoples/nama-service:x.x.x .
+  docker login
   docker push jintoples/nama-service:x.x.x
 ```
 
